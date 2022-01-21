@@ -20,7 +20,7 @@ public class LoginGUI extends JFrame {
 
     public LoginGUI(){
         add(wrapper);
-        setSize(400, 450);
+        setSize(400, 400);
         setLocation(Helper.screenCenter("x", getSize()), Helper.screenCenter("y", getSize()));
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setTitle(Config.PROJECT_TITLE);
